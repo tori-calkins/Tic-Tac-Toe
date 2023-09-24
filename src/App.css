@@ -1,5 +1,18 @@
+body{
+  /* background-color: rgb(42, 148, 162); */
+  background-image: url(https://live.staticflickr.com/5006/5248551351_b96648aac5.jpg);
+
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  margin: 15px;
+  
+}
+
 .square {
-  border: 2px solid black;
+  border: 2px solid rgb(62, 3, 3);
   height: 100px;
   width: 100px;
   text-align: center;
@@ -9,5 +22,21 @@
 }
 
 .grid {
-  
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+  margin: 0 auto;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.winnerTextBox {
+  text-align: center;
+  font-size: 50px;
+}
+
+footer {
+  text-align: center;
+
 }
