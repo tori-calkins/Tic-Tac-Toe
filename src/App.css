@@ -1,5 +1,46 @@
+body{
+  background-color: rgb(37, 37, 46);
+  background-image: url(https://st.depositphotos.com/3008028/3901/i/450/depositphotos_39011981-stock-photo-dark-grey-background-may-used.jpg);
+  background-position: cover;
+  height: 100%;
+} 
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  margin: 40px;
+  color: rgb(28, 206, 238)
+}
+
 .square {
-  border: 2px solid black;
+  border: 2px solid rgb(28, 220, 233);
   height: 100px;
   width: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 360px;
+  margin: 0 auto;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.winnerTextBox {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 7, 7);
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  margin-top: auto;
+  color: rrgb(12, 12, 12)
 }
