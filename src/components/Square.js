@@ -17,3 +17,5 @@ const Square = ({squares, handClick, restart}) => {
     )
 }
 export default Square
+
+
